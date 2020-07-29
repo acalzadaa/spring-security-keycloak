@@ -1,0 +1,12 @@
+server:
+  port: 8099
+keycloak:
+  realm: Demo-Realm
+  auth-server-url: http://127.0.0.1:32768/auth
+  ssl-required: external
+  resource: springboot-microservice
+  credentials: 
+    secret: 46a65428-c514-4da6-a2a1-8d402c3fc09f
+  use-resource-role-mappings: true
+  bearer-only: true
+    
